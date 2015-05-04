@@ -1,0 +1,160 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="srcAddJL" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="dicAddJL" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="codAddJL" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="decAddJL" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="srcAddJTF" alignment="0" min="-2" pref="83" max="-2" attributes="0"/>
+                  <Component id="dicAddJTF" alignment="0" min="-2" pref="83" max="-2" attributes="0"/>
+                  <Component id="codAddJTF" alignment="0" min="-2" pref="83" max="-2" attributes="0"/>
+                  <Component id="decAddJTF" alignment="0" min="-2" pref="83" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="decJB" min="0" pref="0" max="32767" attributes="1"/>
+                  <Component id="codJB" min="0" pref="0" max="32767" attributes="1"/>
+                  <Component id="dicJB" max="32767" attributes="1"/>
+                  <Component id="exeJB" alignment="0" pref="69" max="32767" attributes="1"/>
+              </Group>
+              <EmptySpace pref="59" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="80" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="srcAddJL" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="srcAddJTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="exeJB" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="dicAddJL" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="dicAddJTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="dicJB" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="codAddJL" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="codAddJTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="codJB" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="decAddJL" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="decAddJTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="decJB" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="48" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="srcAddJL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x539f;&#x6587;&#x5730;&#x5740;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dicAddJL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x5b57;&#x5178;&#x5730;&#x5740;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="codAddJL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x7f16;&#x7801;&#x5730;&#x5740;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="decAddJL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x89e3;&#x7801;&#x5730;&#x5740;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="srcAddJTF">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="c:/joy.txt"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="srcAddJTFActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="dicAddJTF">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="c:/joydict.txt"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="codAddJTF">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="c:/joycode.txt"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="decAddJTF">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="c:/joydecode.txt"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="exeJB">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x6267;&#x884c;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="exeJBActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="dicJB">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x5b57;&#x5178;&#x5316;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="dicJBActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="codJB">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x7f16;&#x7801;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="codJBActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="decJB">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x89e3;&#x7801;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="decJBActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
